@@ -11,7 +11,9 @@ for i, xmlfile in enumerate(glob("*.kml")):
     col = f"C{i}"
     ax.plot(x, y, "x-", color=col)
     ax.set_aspect(1.0)
-    ax.text(np.mean(x), np.mean(y), f"{i+1}", color=col)
+    if xmlfile.startswith("Tx"):
+        ax.text(x[0]-100, y[0]+100, xmlfile[2:-4],
+                color=col, ha="right")#, va="center")
     ax.grid(True)
 
 fig.savefig("schleiz-tx-pos.pdf")
