@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Tx7.kml</name>
+	<Style id="linestyle">
+			<LineStyle>
+				<color>#FFFFFFFF</color>
+				<width>1</width>
+			</LineStyle>
+	</Style>
+	<Placemark>
+		<name>untitled</name>
+		<styleUrl>#linestyle</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<altitudeMode>clampToSeaFloor</altitudeMode>
+			<gx:altitudeMode>clampToSeaFloor</gx:altitudeMode>
+			<coordinates>
+				11.888193,50.532858,0 11.888182,50.532839,0 11.888217,50.532863,0 11.887873,50.533367,0 11.887773,50.533495,0 11.888027,50.533553,0 11.887737,50.533516,0 11.887211,50.534190,0 11.886672,50.534978,0 11.886388,50.535661,0 11.885796,50.536560,0 11.885470,50.537075,0 11.884797,50.537742,0 11.884123,50.538440,0 11.882848,50.539740,0 11.882679,50.539860,0 11.880712,50.541030,0 11.880212,50.541331,0 11.879331,50.541766,0 11.879265,50.541875,0 11.879111,50.542213,0 11.879067,50.542535,0 11.879084,50.542680,0 11.878798,50.543165,0 11.878626,50.543705,0 11.877570,50.544393,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>
